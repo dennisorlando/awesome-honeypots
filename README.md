@@ -35,7 +35,7 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
   - ~~[Nodepot](https://github.com/schmalle/Nodepot) - NodeJS web application honeypot.~~ Mah, progetto di scuola
   - ~~[PasitheaHoneypot](https://github.com/Marist-Innovation-Lab/PasitheaHoneypot) - RestAPI honeypot.~~ worthless
   - ~~[Servletpot](https://github.com/schmalle/servletpot) - Web application Honeypot.~~ Abbandonato, worthless
-  - ~~[Shadow Daemon](https://shadowd.zecure.org/overview/introduction/) - Modular Web Application Firewall / High-Interaction Honeypot for PHP, Perl, and Python apps. ~~ sito morto. Peccato, sembrava carino. 
+  - ~~[Shadow Daemon](https://shadowd.zecure.org/overview/introduction/) - Modular Web Application Firewall / High-Interaction Honeypot for PHP, Perl, and Python apps.~~ sito morto. Peccato, sembrava carino. 
   - ~~[StrutsHoneypot](https://github.com/Cymmetria/StrutsHoneypot) - Struts Apache 2 based honeypot as well as a detection module for Apache 2 servers.~~ specifico ad apache, non rilevante
   - ~~[WebTrap](https://github.com/IllusiveNetworks-Labs/WebTrap) - Designed to create deceptive webpages to deceive and redirect attackers away from real websites.~~ Non mi fido, penso sia meglio galah
   - ~~[basic-auth-pot (bap)](https://github.com/bjeborn/basic-auth-pot) - HTTP Basic Authentication honeypot.~~ Mah, chi mai lo usa. No potenziale
