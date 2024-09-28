@@ -98,14 +98,6 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
   - [honeydet](https://github.com/referefref/honeydet) - Signature based honeypot detector tool written in Golang
   - [kippo_detect](https://github.com/andrew-morris/kippo_detect) - Offensive component that detects the presence of the kippo honeypot.
 
-- ICS/SCADA honeypots
-
-  - [Conpot](https://github.com/mushorg/conpot) - ICS/SCADA honeypot.
-  - [GasPot](https://github.com/sjhilt/GasPot) - Veeder Root Gaurdian AST, common in the oil and gas industry.
-  - [SCADA honeynet](http://scadahoneynet.sourceforge.net) - Building Honeypots for Industrial Networks.
-  - [gridpot](https://github.com/sk4ld/gridpot) - Open source tools for realistic-behaving electric grid honeynets.
-  - [scada-honeynet](http://www.digitalbond.com/blog/2007/07/24/scada-honeynet-article-in-infragard-publication/) - Mimics many of the services from a popular PLC and better helps SCADA researchers understand potential risks of exposed control system devices.
-
 - Other/random
 
   - ~~[CitrixHoneypot](https://github.com/MalwareTech/CitrixHoneypot) - Detect and log CVE-2019-19781 scan and exploitation attempts.~~
@@ -147,7 +139,7 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
 
   - [Amun](http://amunhoney.sourceforge.net) - Vulnerability emulation honeypot.
   - ~~[Artillery](https://github.com/trustedsec/artillery/) - Open-source blue team tool designed to protect Linux and Windows operating systems through multiple methods.~~
-  - [Bait and Switch](http://baitnswitch.sourceforge.net) - Redirects all hostile traffic to a honeypot that is partially mirroring your production system.
+  - ~~[Bait and Switch](http://baitnswitch.sourceforge.net) - Redirects all hostile traffic to a honeypot that is partially mirroring your production system.~~ **FIGO, ma è del 2003. Potrei aggiornarlo**
   - [Honeyd](https://github.com/provos/honeyd) - See [honeyd tools](#honeyd-tools). **La cosa del "virtual ip" è interessante, devo capire come funziona.**
   - [Honeysink](http://www.honeynet.org/node/773) - Open source network sinkhole that provides a mechanism for detection and prevention of malicious traffic on a given network.
   - [LaBrea](http://labrea.sourceforge.net/labrea-info.html) - Takes over unused IP addresses, and creates virtual servers that are attractive to worms, hackers, and other denizens of the Internet.
@@ -187,18 +179,6 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
 
   - [Honeeepi](https://redmine.honeynet.org/projects/honeeepi/wiki) - Honeypot sensor on a Raspberry Pi based on a customized Raspbian OS.
 
-- File carving
-
-  - [TestDisk & PhotoRec](https://www.cgsecurity.org/)
-
-- Behavioral analysis tool for win32
-
-  - [Capture BAT](https://www.honeynet.org/node/315)
-
-- Live CD
-
-  - [DAVIX](https://www.secviz.org/node/89) - The DAVIX Live CD.
-
 - Spamtrap
 
   - [Mail::SMTP::Honeypot](https://metacpan.org/pod/release/MIKER/Mail-SMTP-Honeypot-0.11/Honeypot.pm) - Perl module that appears to provide the functionality of a standard SMTP server.
@@ -212,55 +192,18 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
   - [honeypot](https://github.com/jadb/honeypot) - The Project Honey Pot un-official PHP SDK.
   - [spamd](http://man.openbsd.org/cgi-bin/man.cgi?query=spamd%26apropos=0%26sektion=0%26manpath=OpenBSD+Current%26arch=i386%26format=html)
 
-- Commercial honeynet
-
-  - [Cymmetria Mazerunner](ttps://cymmetria.com/products/mazerunner/) - Leads attackers away from real targets and creates a footprint of the attack.
-
-- Dockerized Low Interaction packaging
-
-  - [Docker honeynet](https://github.com/sreinhardt/Docker-Honeynet) - Several Honeynet tools set up for Docker containers.
-  - [Dockerized Thug](https://hub.docker.com/r/honeynet/thug/) - Dockerized [Thug](https://github.com/buffer/thug) to analyze malicious web content.
-  - [Dockerpot](https://github.com/mrschyte/dockerpot) - Docker based honeypot.
-  - [Manuka](https://github.com/andrewmichaelsmith/manuka) - Docker based honeypot (Dionaea and Kippo).
-  - [honey_ports](https://github.com/run41/honey_ports) - Very simple but effective docker deployed honeypot to detect port scanning in your environment.
-  - [mhn-core-docker](https://github.com/MattCarothers/mhn-core-docker) - Core elements of the Modern Honey Network implemented in Docker.
-
-- IOT Honeypot
-
-  - [HoneyThing](https://github.com/omererdem/honeything) - TR-069 Honeypot.
-  - [Kako](https://github.com/darkarnium/kako) - Honeypots for a number of well known and deployed embedded device vulnerabilities.
-
 - Honeytokens
   - [CanaryTokens](https://github.com/thinkst/canarytokens) - Self-hostable honeytoken generator and reporting dashboard; demo version available at [CanaryTokens.org](https://canarytokens.org/generate).
   - [Honeybits](https://github.com/0x4D31/honeybits) - Simple tool designed to enhance the effectiveness of your traps by spreading breadcrumbs and honeytokens across your production servers and workstations to lure the attacker toward your honeypots.
   - [Honeyλ (HoneyLambda)](https://github.com/0x4D31/honeylambda) - Simple, serverless application designed to create and monitor URL honeytokens, on top of AWS Lambda and Amazon API Gateway.
   - [dcept](https://github.com/secureworks/dcept) - Tool for deploying and detecting use of Active Directory honeytokens.
-  - [honeyku](https://github.com/0x4D31/honeyku) - Heroku-based web honeypot that can be used to create and monitor fake HTTP endpoints (i.e. honeytokens).
-
-
-## Network and Artifact Analysis
-
-- Sandbox
-
-  - [Argos](http://www.few.vu.nl/argos/) - Emulator for capturing zero-day attacks.
-  - [COMODO automated sandbox](https://help.comodo.com/topic-72-1-451-4768-.html)
-  - [Cuckoo](https://cuckoosandbox.org/) - Leading open source automated malware analysis system.
-  - [Pylibemu](https://github.com/buffer/pylibemu) - Libemu Cython wrapper.
-  - [RFISandbox](https://monkey.org/~jose/software/rfi-sandbox/) - PHP 5.x script sandbox built on top of [funcall](https://pecl.php.net/package/funcall).
-  - [dorothy2](https://github.com/m4rco-/dorothy2) - Malware/botnet analysis framework written in Ruby.
-  - [imalse](https://github.com/hbhzwj/imalse) - Integrated MALware Simulator and Emulator.
-  - [libemu](https://github.com/buffer/libemu) - Shellcode emulation library, useful for shellcode detection.
+  - ~~[honeyku](https://github.com/0x4D31/honeyku) - Heroku-based web honeypot that can be used to create and monitor fake HTTP endpoints (i*.e. honeytokens).~~ **Interessante la distinzione tra attaccanti umani e crawler / robots**
 
 ## Guides
 
 - [T-Pot: A Multi-Honeypot Platform](https://dtag-dev-sec.github.io/mediator/feature/2015/03/17/concept.html)
 - [Honeypot (Dionaea and kippo) setup script](https://github.com/andrewmichaelsmith/honeypot-setup-script/)
 
-- Deployment
-
-  - [Dionaea and EC2 in 20 Minutes](http://andrewmichaelsmith.com/2012/03/dionaea-honeypot-on-ec2-in-20-minutes/) - Tutorial on setting up Dionaea on an EC2 instance.
-  - [Using a Raspberry Pi honeypot to contribute data to DShield/ISC](https://isc.sans.edu/diary/22680) - The Raspberry Pi based system will allow us to maintain one code base that will make it easier to collect rich logs beyond firewall logs.
-  - [honeypotpi](https://github.com/free5ty1e/honeypotpi) - Script for turning a Raspberry Pi into a HoneyPot Pi.
 
 - Research Papers
 
