@@ -121,10 +121,6 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
 
   - ~~[HIHAT](http://hihat.sourceforge.net/) - Transform arbitrary PHP applications into web-based high-interaction Honeypots.~~ Solo php, no bueno. 
 
-- honeynet farm traffic redirector
-
-  - [Honeymole](https://web.archive.org/web/20100326040550/http://www.honeynet.org.pt:80/index.php/HoneyMole) - Deploy multiple sensors that redirect traffic to a centralized collection of honeypots.
-
 - Honeypot for USB-spreading malware
 
   - ~~[Ghost-usb](https://github.com/honeynet/ghost-usb-honeypot) - Honeypot for malware that propagates via USB storage devices.~~ ~~Strapuccioso, devo mettermelo pure io. Però non è rilevante.~~ Fuck it, è solo per windows
@@ -162,35 +158,6 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
   - [MockSSH](https://github.com/ncouture/MockSSH) - Mock an SSH server and define all commands it supports (Python, Twisted). **intriguing, forse è uguale a Kippo**
   - [hornet](https://github.com/czardoz/hornet) - Medium interaction SSH honeypot that supports multiple virtual hosts.
   - [ssh-honeypot](https://github.com/amv42/sshd-honeypot) - Modified version of the OpenSSH deamon that forwards commands to Cowrie where all commands are interpreted and returned. **NO FINGERPRINTING**
-
-- Distributed sensor project
-
-  - [DShield Web Honeypot Project](https://sites.google.com/site/webhoneypotsite/)
-
-- Network traffic redirector
-
-  - [Honeywall](https://projects.honeynet.org/honeywall/)
-
-- Honeypot Distribution with mixed content
-
-  - [HoneyDrive](https://bruteforcelab.com/honeydrive)
-
-- Honeypot sensor
-
-  - [Honeeepi](https://redmine.honeynet.org/projects/honeeepi/wiki) - Honeypot sensor on a Raspberry Pi based on a customized Raspbian OS.
-
-- Spamtrap
-
-  - [Mail::SMTP::Honeypot](https://metacpan.org/pod/release/MIKER/Mail-SMTP-Honeypot-0.11/Honeypot.pm) - Perl module that appears to provide the functionality of a standard SMTP server.
-  - [Mailoney](https://github.com/awhitehatter/mailoney) - SMTP honeypot, Open Relay, Cred Harvester written in python.
-  - [SendMeSpamIDS.py](https://github.com/johestephan/VerySimpleHoneypot) - Simple SMTP fetch all IDS and analyzer.
-  - [Shiva](https://github.com/shiva-spampot/shiva) - Spam Honeypot with Intelligent Virtual Analyzer.
-    - [Shiva The Spam Honeypot Tips And Tricks For Getting It Up And Running](https://www.pentestpartners.com/security-blog/shiva-the-spam-honeypot-tips-and-tricks-for-getting-it-up-and-running/)
-  - [SMTPLLMPot](https://github.com/referefref/SMTPLLMPot) - A super simple SMTP Honeypot built using GPT3.5
-  - [SpamHAT](https://github.com/miguelraulb/spamhat) - Spam Honeypot Tool.
-  - [Spamhole](http://www.spamhole.net/)
-  - [honeypot](https://github.com/jadb/honeypot) - The Project Honey Pot un-official PHP SDK.
-  - [spamd](http://man.openbsd.org/cgi-bin/man.cgi?query=spamd%26apropos=0%26sektion=0%26manpath=OpenBSD+Current%26arch=i386%26format=html)
 
 - Honeytokens
   - [CanaryTokens](https://github.com/thinkst/canarytokens) - Self-hostable honeytoken generator and reporting dashboard; demo version available at [CanaryTokens.org](https://canarytokens.org/generate).
