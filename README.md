@@ -90,7 +90,7 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
  
 - Distributed Honeypots
 
-  - [DemonHunter](https://github.com/RevengeComing/DemonHunter) - Low interaction honeypot server.
+  - ~~[DemonHunter](https://github.com/RevengeComing/DemonHunter) - Low interaction honeypot server.~~ Helper; non un honeypot
 
 - Anti-honeypot stuff
 
@@ -108,27 +108,22 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
 
 - Other/random
 
-  - [CitrixHoneypot](https://github.com/MalwareTech/CitrixHoneypot) - Detect and log CVE-2019-19781 scan and exploitation attempts.
-  - [Damn Simple Honeypot (DSHP)](https://github.com/naorlivne/dshp) - Honeypot framework with pluggable handlers.
-  - [dicompot](https://github.com/nsmfoo/dicompot) - DICOM Honeypot.
-  - [IPP Honey](https://gitlab.com/bontchev/ipphoney) - A honeypot for the Internet Printing Protocol.
-  - [Log4Pot](https://github.com/thomaspatzke/Log4Pot) - A honeypot for the Log4Shell vulnerability (CVE-2021-44228).
-  - [Masscanned](https://github.com/ivre/masscanned) - Let's be scanned. A low-interaction honeypot focused on network scanners and bots. It integrates very well with IVRE to build a self-hosted alternative to GreyNoise.
-  - [medpot](https://github.com/schmalle/medpot) -  HL7 / FHIR honeypot.
-  - [NOVA](https://github.com/DataSoft/Nova) - Uses honeypots as detectors, looks like a complete system.
-  - [OpenFlow Honeypot (OFPot)](https://github.com/upa/ofpot) - Redirects traffic for unused IPs to a honeypot, built on POX.
-  - [OpenCanary](https://github.com/thinkst/opencanary) - Modular and decentralised honeypot daemon that runs several canary versions of services that alerts when a service is (ab)used.
-  - [ciscoasa_honeypot](https://github.com/cymmetria/ciscoasa_honeypot) A low interaction honeypot for the Cisco ASA component capable of detecting CVE-2018-0101, a DoS and remote code execution vulnerability.
-  - [miniprint](https://github.com/sa7mon/miniprint) - A medium interaction printer honeypot.
-
-- Botnet C2 tools
-
-  - [Hale](https://github.com/pjlantz/Hale) - Botnet command and control monitor.
-  - [dnsMole](https://code.google.com/archive/p/dns-mole/) - Analyses DNS traffic and potentionaly detect botnet command and control server activity, along with infected hosts.
+  - ~~[CitrixHoneypot](https://github.com/MalwareTech/CitrixHoneypot) - Detect and log CVE-2019-19781 scan and exploitation attempts.~~
+  - ~~[Damn Simple Honeypot (DSHP)](https://github.com/naorlivne/dshp) - Honeypot framework with pluggable handlers.~~ Non interessante
+  - ~~[dicompot](https://github.com/nsmfoo/dicompot) - DICOM Honeypot.~~ Troppo specifico
+  - ~~[IPP Honey](https://gitlab.com/bontchev/ipphoney) - A honeypot for the Internet Printing Protocol.~~ Troppo specifico
+  - ~~[Log4Pot](https://github.com/thomaspatzke/Log4Pot) - A honeypot for the Log4Shell vulnerability (CVE-2021-44228).~~
+  - ~~[Masscanned](https://github.com/ivre/masscanned) - Let's be scanned. A low-interaction honeypot focused on network scanners and bots. It integrates very well with IVRE to build a self-hosted alternative to GreyNoise.~~ Mi piace un botto ed è stradivertente. Purtroppo non è rilevante al mio progetto. 
+  - ~~[medpot](https://github.com/schmalle/medpot) -  HL7 / FHIR honeypot.~~
+  - ~~[NOVA](https://github.com/DataSoft/Nova) - Uses honeypots as detectors, looks like a complete system.~~ Come `OpenCanary: è un semplice honeypot pure lui, ma semplicemente installato su rete interna. 
+  - ~~[OpenFlow Honeypot (OFPot)](https://github.com/upa/ofpot) - Redirects traffic for unused IPs to a honeypot, built on POX.~~ Utility, la scarto.
+  - ~~[OpenCanary](https://github.com/thinkst/opencanary) - Modular and decentralised honeypot daemon that runs several canary versions of services that alerts when a service is (ab)used.~~ Deluso deludendo. È semplicemente un honeypot ma deployato in una rete interna.
+  - ~~[ciscoasa_honeypot](https://github.com/cymmetria/ciscoasa_honeypot) A low interaction honeypot for the Cisco ASA component capable of detecting CVE-2018-0101, a DoS and remote code execution vulnerability.~~ Troppo Specifico
+  - ~~[miniprint](https://github.com/sa7mon/miniprint) - A medium interaction printer honeypot.~~ Specifico a printers
 
 - IPv6 attack detection tool
 
-  - [ipv6-attack-detector](https://github.com/mzweilin/ipv6-attack-detector/) - Google Summer of Code 2012 project, supported by The Honeynet Project organization.
+  - ~~[ipv6-attack-detector](https://github.com/mzweilin/ipv6-attack-detector/) - Google Summer of Code 2012 project, supported by The Honeynet Project organization.~~ Non capisco cosa sia
 
 - Dynamic code instrumentation toolkit
 
