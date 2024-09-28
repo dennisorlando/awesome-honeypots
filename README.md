@@ -159,39 +159,17 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
 
 - SSH Honeypots
 
-  - [Blacknet](https://github.com/morian/blacknet) - Multi-head SSH honeypot system.
+  - ~~[Blacknet](https://github.com/morian/blacknet) - Multi-head SSH honeypot system.~~ low interaction
   - [Cowrie](https://github.com/cowrie/cowrie) - Cowrie SSH Honeypot (based on kippo).
-  - [DShield docker](https://github.com/xme/dshield-docker) - Docker container running cowrie with DShield output enabled.
-  - [endlessh](https://github.com/skeeto/endlessh) - SSH tarpit that slowly sends an endless banner. ([docker image](https://hub.docker.com/r/linuxserver/endlessh))
-  - [HonSSH](https://github.com/tnich/honssh) - Logs all SSH communications between a client and server.
-  - [HUDINX](https://github.com/Cryptix720/HUDINX) - Tiny interaction SSH honeypot engineered in Python to log brute force attacks and, most importantly, the entire shell interaction performed by the attacker.
+  - ~~[endlessh](https://github.com/skeeto/endlessh) - SSH tarpit that slowly sends an endless banner. ([docker image](https://hub.docker.com/r/linuxserver/endlessh))~~ not a honeypot
+  - ~~[HonSSH](https://github.com/tnich/honssh) - Logs all SSH communications between a client and server.~~ just a logger
+  - ~~[HUDINX](https://github.com/Cryptix720/HUDINX) - Tiny interaction SSH honeypot engineered in Python to log brute force attacks and, most importantly, the entire shell interaction performed by the attacker.~~ dubious install, non rilevante
   - [Kippo](https://github.com/desaster/kippo) - Medium interaction SSH honeypot.
-  - [Kippo_JunOS](https://github.com/gregcmartin/Kippo_JunOS) - Kippo configured to be a backdoored netscreen.
-  - [Kojoney2](https://github.com/madirish/kojoney2) - Low interaction SSH honeypot written in Python and based on Kojoney by Jose Antonio Coret.
-  - [Kojoney](http://kojoney.sourceforge.net/) - Python-based Low interaction honeypot that emulates an SSH server implemented with Twisted Conch.
-  - [Longitudinal Analysis of SSH Cowrie Honeypot Logs](https://github.com/deroux/longitudinal-analysis-cowrie) - Python based command line tool to analyze cowrie logs over time.
-  - [LongTail Log Analysis @ Marist College](http://longtail.it.marist.edu/honey/) - Analyzed SSH honeypot logs.
-  - [Malbait](https://github.com/batchmcnulty/Malbait) - Simple TCP/UDP honeypot implemented in Perl.
-  - [MockSSH](https://github.com/ncouture/MockSSH) - Mock an SSH server and define all commands it supports (Python, Twisted).
-  - [cowrie2neo](https://github.com/xlfe/cowrie2neo) - Parse cowrie honeypot logs into a neo4j database.
-  - [go-sshoney](https://github.com/ashmckenzie/go-sshoney) - SSH Honeypot.
-  - [go0r](https://github.com/fzerorubigd/go0r) - Simple ssh honeypot in Golang.
-  - [gohoney](https://github.com/PaulMaddox/gohoney) - SSH honeypot written in Go.
-  - [hived](https://github.com/sahilm/hived) - Golang-based honeypot.
-  - [hnypots-agent)](https://github.com/joshrendek/hnypots-agent) - SSH Server in Go that logs username and password combinations.
-  - [honeypot.go](https://github.com/mdp/honeypot.go) - SSH Honeypot written in Go.
-  - [honeyssh](https://github.com/ppacher/honeyssh) - Credential dumping SSH honeypot with statistics.
+  - [Kojoney2](https://github.com/madirish/kojoney2) - Low interaction SSH honeypot written in Python and based on Kojoney by Jose Antonio Coret. **PROMISING**
+  - [Malbait](https://github.com/batchmcnulty/Malbait) - Simple TCP/UDP honeypot implemented in Perl. **La cosa del fuzz e confondere l'attaccante è interessante**
+  - [MockSSH](https://github.com/ncouture/MockSSH) - Mock an SSH server and define all commands it supports (Python, Twisted). **intriguing, forse è uguale a Kippo**
   - [hornet](https://github.com/czardoz/hornet) - Medium interaction SSH honeypot that supports multiple virtual hosts.
-  - [ssh-auth-logger](https://github.com/JustinAzoff/ssh-auth-logger) - Low/zero interaction SSH authentication logging honeypot.
-  - [ssh-honeypot](https://github.com/droberson/ssh-honeypot) - Fake sshd that logs IP addresses, usernames, and passwords.
-  - [ssh-honeypot](https://github.com/amv42/sshd-honeypot) - Modified version of the OpenSSH deamon that forwards commands to Cowrie where all commands are interpreted and returned.
-  - [ssh-honeypotd](https://github.com/sjinks/ssh-honeypotd) - Low-interaction SSH honeypot written in C.
-  - [sshForShits](https://github.com/traetox/sshForShits) - Framework for a high interaction SSH honeypot.
-  - [sshesame](https://github.com/jaksi/sshesame) - Fake SSH server that lets everyone in and logs their activity.
-  - [sshhipot](https://github.com/magisterquis/sshhipot) - High-interaction MitM SSH honeypot.
-  - [sshlowpot](https://github.com/magisterquis/sshlowpot) - Yet another no-frills low-interaction SSH honeypot in Go.
-  - [sshsyrup](https://github.com/mkishere/sshsyrup) - Simple SSH Honeypot with features to capture terminal activity and upload to asciinema.org.
-  - [twisted-honeypots](https://github.com/lanjelot/twisted-honeypots) - SSH, FTP and Telnet honeypots based on Twisted.
+  - [ssh-honeypot](https://github.com/amv42/sshd-honeypot) - Modified version of the OpenSSH deamon that forwards commands to Cowrie where all commands are interpreted and returned. **NO FINGERPRINTING**
 
 - Distributed sensor project
 
