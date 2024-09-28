@@ -125,44 +125,13 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
 
   - ~~[ipv6-attack-detector](https://github.com/mzweilin/ipv6-attack-detector/) - Google Summer of Code 2012 project, supported by The Honeynet Project organization.~~ Non capisco cosa sia
 
-- Dynamic code instrumentation toolkit
-
-  - [Frida](https://www.frida.re) - Inject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android.
-
 - Tool to convert website to server honeypots
 
-  - [HIHAT](http://hihat.sourceforge.net/) - Transform arbitrary PHP applications into web-based high-interaction Honeypots.
-
-- Distributed sensor deployment
-
-  - [Community Honey Network](https://communityhoneynetwork.readthedocs.io/en/stable/) - CHN aims to make deployments honeypots and honeypot management tools easy and flexible. The default deployment method uses Docker Compose and Docker to deploy with a few simple commands.
-  - [Modern Honey Network](https://github.com/threatstream/mhn) - Multi-snort and honeypot sensor management, uses a network of VMs, small footprint SNORT installations, stealthy dionaeas, and a centralized server for management.
-
-- Network Analysis Tool
-
-  - [Tracexploit](https://code.google.com/archive/p/tracexploit/) - Replay network packets.
-
-- Log anonymizer
-
-  - [LogAnon](http://code.google.com/archive/p/loganon/) - Log anonymization library that helps having anonymous logs consistent between logs and network captures.
-
-- Low interaction honeypot (router back door)
-
-  - [Honeypot-32764](https://github.com/knalli/honeypot-for-tcp-32764) - Honeypot for router backdoor (TCP 32764).
-  - [WAPot](https://github.com/lcashdol/WAPot) - Honeypot that can be used to observe traffic directed at home routers.
+  - ~~[HIHAT](http://hihat.sourceforge.net/) - Transform arbitrary PHP applications into web-based high-interaction Honeypots.~~ Solo php, no bueno. 
 
 - honeynet farm traffic redirector
 
   - [Honeymole](https://web.archive.org/web/20100326040550/http://www.honeynet.org.pt:80/index.php/HoneyMole) - Deploy multiple sensors that redirect traffic to a centralized collection of honeypots.
-
-- HTTPS Proxy
-
-  - [mitmproxy](https://mitmproxy.org/) - Allows traffic flows to be intercepted, inspected, modified, and replayed.
-
-- System instrumentation
-
-  - [Sysdig](https://sysdig.com/opensource/) - Open source, system-level exploration allows one to capture system state and activity from a running GNU/Linux instance, then save, filter, and analyze the results.
-  - [Fibratus](https://github.com/rabbitstack/fibratus) - Tool for exploration and tracing of the Windows kernel.
 
 - Honeypot for USB-spreading malware
 
@@ -177,7 +146,7 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
 - Server
 
   - [Amun](http://amunhoney.sourceforge.net) - Vulnerability emulation honeypot.
-  - [Artillery](https://github.com/trustedsec/artillery/) - Open-source blue team tool designed to protect Linux and Windows operating systems through multiple methods.
+  - ~~[Artillery](https://github.com/trustedsec/artillery/) - Open-source blue team tool designed to protect Linux and Windows operating systems through multiple methods.~~
   - [Bait and Switch](http://baitnswitch.sourceforge.net) - Redirects all hostile traffic to a honeypot that is partially mirroring your production system.
   - [Bifrozt](https://github.com/Ziemeck/bifrozt-ansible) - Automatic deploy bifrozt with ansible.
   - [Conpot](http://conpot.org/) - Low interactive server side Industrial Control Systems honeypot.
@@ -208,16 +177,6 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
   - [telnet-iot-honeypot](https://github.com/Phype/telnet-iot-honeypot) - Python telnet honeypot for catching botnet binaries.
   - [telnetlogger](https://github.com/robertdavidgraham/telnetlogger) - Telnet honeypot designed to track the Mirai botnet.
   - [vnclowpot](https://github.com/magisterquis/vnclowpot) - Low interaction VNC honeypot.
-
-- IDS signature generation
-
-  - [Honeycomb](http://www.icir.org/christian/honeycomb/) - Automated signature creation using honeypots.
-
-- Data Collection / Data Sharing
-
-  - [HPfriends](http://hpfriends.honeycloud.net/#/home) - Honeypot data-sharing platform.
-    - [hpfriends - real-time social data-sharing](https://heipei.io/sigint-hpfriends/) - Presentation about HPFriends feed system
-  - [HPFeeds](https://github.com/rep/hpfeeds/) - Lightweight authenticated publish-subscribe protocol.
 
 - Hybrid low/high interaction honeypot
 
