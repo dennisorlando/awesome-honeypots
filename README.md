@@ -8,7 +8,7 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
 
 # Contents
 
-- [Awesome Honeypots ![Awesome Honeypots](https://github.com/sindresorhus/awesome)](#awesome-honeypots-)
+- [Awesome Honeypots ![Awesome Honeypots](https://github.com/sindresorhus/awesome)]
 - [Contents](#contents)
   - [Related Lists](#related-lists)
   - [Honeypots](#honeypots)
@@ -166,42 +166,13 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
 
 - Honeypot for USB-spreading malware
 
-  - [Ghost-usb](https://github.com/honeynet/ghost-usb-honeypot) - Honeypot for malware that propagates via USB storage devices.
-
-- Data Collection
-
-  - [Kippo2MySQL](https://bruteforcelab.com/kippo2mysql) - Extracts some very basic stats from Kippo’s text-based log files and inserts them in a MySQL database.
-  - [Kippo2ElasticSearch](https://bruteforcelab.com/kippo2elasticsearch) - Python script to transfer data from a Kippo SSH honeypot MySQL database to an ElasticSearch instance (server or cluster).
-
-- Passive network audit framework parser
-
-  - [Passive Network Audit Framework (pnaf)](https://github.com/jusafing/pnaf) - Framework that combines multiple passive and automated analysis techniques in order to provide a security assessment of network platforms.
-
-- VM monitoring and tools
-
-  - [Antivmdetect](https://github.com/nsmfoo/antivmdetection) - Script to create templates to use with VirtualBox to make VM detection harder.
-  - [VMCloak](https://github.com/hatching/vmcloak) - Automated Virtual Machine Generation and Cloaking for Cuckoo Sandbox.
-  - [vmitools](http://libvmi.com/) - C library with Python bindings that makes it easy to monitor the low-level details of a running virtual machine.
-
-- Binary debugger
-
-  - [Hexgolems - Pint Debugger Backend](https://github.com/hexgolems/pint) - Debugger backend and LUA wrapper for PIN.
-  - [Hexgolems - Schem Debugger Frontend](https://github.com/hexgolems/schem) - Debugger frontend.
-
-- Mobile Analysis Tool
-
-  - [Androguard](https://github.com/androguard/androguard) - Reverse engineering, Malware and goodware analysis of Android applications and more.
-  - [APKinspector](https://github.com/honeynet/apkinspector/) - Powerful GUI tool for analysts to analyze the Android applications.
+  - ~~[Ghost-usb](https://github.com/honeynet/ghost-usb-honeypot) - Honeypot for malware that propagates via USB storage devices.~~ ~~Strapuccioso, devo mettermelo pure io. Però non è rilevante.~~ Fuck it, è solo per windows
 
 - Low interaction honeypot
 
   - [Honeyperl](https://sourceforge.net/projects/honeyperl/) - Honeypot software based in Perl with plugins developed for many functions like : wingates, telnet, squid, smtp, etc.
   - [T-Pot](https://github.com/dtag-dev-sec/tpotce) - All in one honeypot appliance from telecom provider T-Mobile
   - [beelzebub](https://github.com/mariocandela/beelzebub) - A secure honeypot framework, extremely easy to configure by yaml 🚀
-
-- Honeynet data fusion
-
-  - [HFlow2](https://projects.honeynet.org/hflow) - Data coalesing tool for honeynet/network analysis.
 
 - Server
 
@@ -242,19 +213,11 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
 
   - [Honeycomb](http://www.icir.org/christian/honeycomb/) - Automated signature creation using honeypots.
 
-- Lookup service for AS-numbers and prefixes
-
-  - [CC2ASN](http://www.cc2asn.com/) - Simple lookup service for AS-numbers and prefixes belonging to any given country in the world.
-
 - Data Collection / Data Sharing
 
   - [HPfriends](http://hpfriends.honeycloud.net/#/home) - Honeypot data-sharing platform.
     - [hpfriends - real-time social data-sharing](https://heipei.io/sigint-hpfriends/) - Presentation about HPFriends feed system
   - [HPFeeds](https://github.com/rep/hpfeeds/) - Lightweight authenticated publish-subscribe protocol.
-
-- Honeypot extensions to Wireshark
-
-  - [Wireshark Extensions](https://www.honeynet.org/project/WiresharkExtensions) - Apply Snort IDS rules and signatures against packet capture files using Wireshark.
 
 - Client
 
@@ -389,26 +352,6 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
   - [dcept](https://github.com/secureworks/dcept) - Tool for deploying and detecting use of Active Directory honeytokens.
   - [honeyku](https://github.com/0x4D31/honeyku) - Heroku-based web honeypot that can be used to create and monitor fake HTTP endpoints (i.e. honeytokens).
 
-## Honeyd Tools
-
-- Honeyd plugin
-
-  - [Honeycomb](http://www.honeyd.org/tools.php)
-
-- Honeyd viewer
-
-  - [Honeyview](http://honeyview.sourceforge.net/)
-
-- Honeyd to MySQL connector
-
-  - [Honeyd2MySQL](https://bruteforcelab.com/honeyd2mysql)
-
-- A script to visualize statistics from honeyd
-
-  - [Honeyd-Viz](https://bruteforcelab.com/honeyd-viz)
-
-- Honeyd stats
-  - [Honeydsum.pl](https://github.com/DataSoft/Honeyd/blob/master/scripts/misc/honeydsum-v0.3/honeydsum.pl)
 
 ## Network and Artifact Analysis
 
@@ -422,13 +365,6 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
   - [dorothy2](https://github.com/m4rco-/dorothy2) - Malware/botnet analysis framework written in Ruby.
   - [imalse](https://github.com/hbhzwj/imalse) - Integrated MALware Simulator and Emulator.
   - [libemu](https://github.com/buffer/libemu) - Shellcode emulation library, useful for shellcode detection.
-
-- Sandbox-as-a-Service
-
-  - [Hybrid Analysis](https://www.hybrid-analysis.com) - Free malware analysis service powered by Payload Security that detects and analyzes unknown threats using a unique Hybrid Analysis technology.
-  - [Joebox Cloud](https://jbxcloud.joesecurity.org/login) - Analyzes the behavior of malicious files including PEs, PDFs, DOCs, PPTs, XLSs, APKs, URLs and MachOs on Windows, Android and Mac OS X for suspicious activities.
-  - [VirusTotal](https://www.virustotal.com/) - Analyze suspicious files and URLs to detect types of malware, and automatically share them with the security community.
-  - [malwr.com](https://malwr.com/) - Free malware analysis service and community.
 
 ## Guides
 
