@@ -26,23 +26,23 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
 
 - Web honeypots
 
-  - [Express honeypot](https://github.com/christophe77/express-honeypot) - RFI & LFI honeypot using nodeJS and express.
-  - [EoHoneypotBundle](https://github.com/eymengunay/EoHoneypotBundle) - Honeypot type for Symfony2 forms.
+  - ~~[Express honeypot](https://github.com/christophe77/express-honeypot) - RFI & LFI honeypot using nodeJS and express.~~ Meh, non interessante
+  - ~~[EoHoneypotBundle](https://github.com/eymengunay/EoHoneypotBundle) - Honeypot type for Symfony2 forms.~~ Meh, non interessante
   - [Glastopf](https://github.com/mushorg/glastopf) - Web Application Honeypot.
   - [Google Hack Honeypot](http://ghh.sourceforge.net) - Designed to provide reconnaissance against attackers that use search engines as a hacking tool against your resources.
-  - [HellPot](https://github.com/yunginnanet/HellPot) - Honeypot that tries to crash the bots and clients that visit it's location.
-  - [Laravel Application Honeypot](https://github.com/msurguy/Honeypot) - Simple spam prevention package for Laravel applications.
+  - ~~[HellPot](https://github.com/yunginnanet/HellPot) - Honeypot that tries to crash the bots and clients th   at visit it's location.~~ Figo ma non rilevante
+  - ~~[Laravel Application Honeypot](https://github.com/msurguy/Honeypot) - Simple spam prevention package for Laravel applications.~~ Carino ma non rilevante
   - [Nodepot](https://github.com/schmalle/Nodepot) - NodeJS web application honeypot.
   - [PasitheaHoneypot](https://github.com/Marist-Innovation-Lab/PasitheaHoneypot) - RestAPI honeypot.
   - [Servletpot](https://github.com/schmalle/servletpot) - Web application Honeypot.
   - [Shadow Daemon](https://shadowd.zecure.org/overview/introduction/) - Modular Web Application Firewall / High-Interaction Honeypot for PHP, Perl, and Python apps.
   - [StrutsHoneypot](https://github.com/Cymmetria/StrutsHoneypot) - Struts Apache 2 based honeypot as well as a detection module for Apache 2 servers.
   - [WebTrap](https://github.com/IllusiveNetworks-Labs/WebTrap) - Designed to create deceptive webpages to deceive and redirect attackers away from real websites.
-  - [basic-auth-pot (bap)](https://github.com/bjeborn/basic-auth-pot) - HTTP Basic Authentication honeypot.
-  - [bwpot](https://github.com/graneed/bwpot) - Breakable Web applications honeyPot.
-  - [django-admin-honeypot](https://github.com/dmpayton/django-admin-honeypot) - Fake Django admin login screen to notify admins of attempted unauthorized access.
-  - [drupo](https://github.com/d1str0/drupot) - Drupal Honeypot.
-  - [galah](https://github.com/0x4D31/galah) - an LLM-powered web honeypot using the OpenAI API.
+  - ~~[basic-auth-pot (bap)](https://github.com/bjeborn/basic-auth-pot) - HTTP Basic Authentication honeypot.~~ Mah, chi mai lo usa. No potenziale
+  - ~~[bwpot](https://github.com/graneed/bwpot) - Breakable Web applications honeyPot.~~ Forse figo ma in cinese
+  - ~~[django-admin-honeypot](https://github.com/dmpayton/django-admin-honeypot) - Fake Django admin login screen to notify admins of attempted unauthorized access.~~ No potenziale
+  - ~~[drupo](https://github.com/d1str0/drupot) - Drupal Honeypot.~~ No docs
+  - [galah](https://github.com/0x4D31/galah) - an LLM-powered web honeypot using the OpenAI API. **JACKPOT**
   - [honeyhttpd](https://github.com/bocajspear1/honeyhttpd) - Python-based web server honeypot builder.
   - [honeyup](https://github.com/LogoiLab/honeyup) - An uploader honeypot designed to look like poor website security.
   - [modpot](https://github.com/referefref/modpot) - Modpot is a modular web application honeypot framework and management application written in Golang and making use of gin framework.
@@ -142,10 +142,6 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
 - Tool to convert website to server honeypots
 
   - [HIHAT](http://hihat.sourceforge.net/) - Transform arbitrary PHP applications into web-based high-interaction Honeypots.
-
-- Malware collector
-
-  - [Kippo-Malware](https://bruteforcelab.com/kippo-malware) - Python script that will download all malicious files stored as URLs in a Kippo SSH honeypot database.
 
 - Distributed sensor deployment
 
