@@ -148,35 +148,10 @@ Discover more awesome lists at [sindresorhus/awesome](https://github.com/sindres
   - [Amun](http://amunhoney.sourceforge.net) - Vulnerability emulation honeypot.
   - ~~[Artillery](https://github.com/trustedsec/artillery/) - Open-source blue team tool designed to protect Linux and Windows operating systems through multiple methods.~~
   - [Bait and Switch](http://baitnswitch.sourceforge.net) - Redirects all hostile traffic to a honeypot that is partially mirroring your production system.
-  - [Bifrozt](https://github.com/Ziemeck/bifrozt-ansible) - Automatic deploy bifrozt with ansible.
-  - [Conpot](http://conpot.org/) - Low interactive server side Industrial Control Systems honeypot.
-  - [Heralding](https://github.com/johnnykv/heralding) - Credentials catching honeypot.
-  - [HoneyWRT](https://github.com/CanadianJeff/honeywrt) - Low interaction Python honeypot designed to mimic services or ports that might get targeted by attackers.
-  - [Honeyd](https://github.com/provos/honeyd) - See [honeyd tools](#honeyd-tools).
+  - [Honeyd](https://github.com/provos/honeyd) - See [honeyd tools](#honeyd-tools). **La cosa del "virtual ip" è interessante, devo capire come funziona.**
   - [Honeysink](http://www.honeynet.org/node/773) - Open source network sinkhole that provides a mechanism for detection and prevention of malicious traffic on a given network.
-  - [Hontel](https://github.com/stamparm/hontel) - Telnet Honeypot.
-  - [KFSensor](http://www.keyfocus.net/kfsensor/) - Windows based honeypot Intrusion Detection System (IDS).
   - [LaBrea](http://labrea.sourceforge.net/labrea-info.html) - Takes over unused IP addresses, and creates virtual servers that are attractive to worms, hackers, and other denizens of the Internet.
-  - [MTPot](https://github.com/Cymmetria/MTPot) - Open Source Telnet Honeypot, focused on Mirai malware.
   - [SIREN](https://github.com/blaverick62/SIREN) - Semi-Intelligent HoneyPot Network - HoneyNet Intelligent Virtual Environment.
-  - [TelnetHoney](https://github.com/balte/TelnetHoney) - Simple telnet honeypot.
-  - [UDPot Honeypot](https://github.com/jekil/UDPot) - Simple UDP/DNS honeypot scripts.
-  - [Yet Another Fake Honeypot (YAFH)](https://github.com/fnzv/YAFH) - Simple honeypot written in Go.
-  - [arctic-swallow](https://github.com/ajackal/arctic-swallow) - Low interaction honeypot.
-  - [fapro](https://github.com/fofapro/fapro) - Fake Protocol Server.
-  - [glutton](https://github.com/mushorg/glutton) - All eating honeypot.
-  - [go-HoneyPot](https://github.com/Mojachieee/go-HoneyPot) - Honeypot server written in Go.
-  - [go-emulators](https://github.com/kingtuna/go-emulators) - Honeypot Golang emulators.
-  - [honeymail](https://github.com/sec51/honeymail) - SMTP honeypot written in Golang.
-  - [honeytrap](https://github.com/tillmannw/honeytrap) - Low-interaction honeypot and network security tool written to catch attacks against TCP and UDP services.
-  - [imap-honey](https://github.com/yvesago/imap-honey) - IMAP honeypot written in Golang.
-  - [mwcollectd](https://www.openhub.net/p/mwcollectd) - Versatile malware collection daemon, uniting the best features of nepenthes and honeytrap.
-  - [potd](https://github.com/lnslbrty/potd) - Highly scalable low- to medium-interaction SSH/TCP honeypot designed for OpenWrt/IoT devices leveraging several Linux kernel features, such as namespaces, seccomp and thread capabilities.
-  - [portlurker](https://github.com/bartnv/portlurker) - Port listener in Rust with protocol guessing and safe string display.
-  - [slipm-honeypot](https://github.com/rshipp/slipm-honeypot) - Simple low-interaction port monitoring honeypot.
-  - [telnet-iot-honeypot](https://github.com/Phype/telnet-iot-honeypot) - Python telnet honeypot for catching botnet binaries.
-  - [telnetlogger](https://github.com/robertdavidgraham/telnetlogger) - Telnet honeypot designed to track the Mirai botnet.
-  - [vnclowpot](https://github.com/magisterquis/vnclowpot) - Low interaction VNC honeypot.
 
 - Hybrid low/high interaction honeypot
 
